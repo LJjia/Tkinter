@@ -188,7 +188,7 @@ def Generate():
 
 #创建图形化界面
 window = tk.Tk()
-window.title('Excel 统计工具')
+window.title('Excel 汇总工具v1.0')
 window.geometry('350x200')
 ChooseCategory=tk.StringVar()
 ChooseCategory.set('姓名')
@@ -205,7 +205,7 @@ CreateFilename=tk.StringVar()
 CreateFilename.set('file')
 tk.Entry(window,textvariable=CreateFilename,width=20).place(x=10,y=110)
 
-gener=tk.Button(window, text='开始统计', width=15, command=Generate).place(x=110,y=140)
+gener=tk.Button(window, text='开始汇总', width=15, command=Generate).place(x=110,y=140)
 
 tk.Label(window,font=('Arial', 10),text='Designed by LJjia').place(x=30,y=180)
 #超链接
@@ -218,7 +218,7 @@ text.tag_add("link","1.11","1.15")#后面两个参数的意思是 1行4列 到 1
 text.tag_config("link",foreground="blue",underline=True)
 
 def click(event):
-    webbrowser.open("http://www.baidu.com")
+    webbrowser.open("https://github.com/LJjia/Tkinter/tree/master/tutorial/Excel_tools")
 text.tag_bind("link","<Button-1>",click)
 
 if __name__ == '__main__':
