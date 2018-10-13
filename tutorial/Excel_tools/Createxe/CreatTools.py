@@ -2,16 +2,6 @@
 #coding=utf-8
 __author__ = 'Jia Liangjun'
 # *******************************************************************
-#     Filename @  CreatTools.py
-#       Author @  Jia Liangjun
-#  Create date @  2018/10/4 13:14
-#        Email @  LJjiahf@163.com
-#  Description @  
-# ********************************************************************
-#!/usr/bin/env python
-#coding=utf-8
-__author__ = 'Jia Liangjun'
-# *******************************************************************
 #     Filename @  tool1.py
 #       Author @  Jia Liangjun
 #  Create date @  2018/10/3 19:43
