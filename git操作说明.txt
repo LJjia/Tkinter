@@ -181,3 +181,12 @@ git merge <对应的分支> --allow-unrelated-histories
 git 修改远程库
 git remote rm origin //先删除
 git remote add origin git@github.com:LJjia:jupyter1.git//重新添加
+
+
+对于从网上copy别人的仓库，可以直接使用git bash 方法，这种方法可以选择clone 别人的修改历史
+首先git clone （拷贝别人仓库的地址，在绿色clone or download中段非常长的http地址）。如：
+$ git clone  https://github.com/johnzeng/ResumableGitClone.git
+
+如果只想拷贝最近一次的修改记录，使用depth参数
+$ git clone --depth 1 https://github.com/johnzeng/ResumableGitClone.git
+上面这句话含义为只拷贝最新的一次修改记录
