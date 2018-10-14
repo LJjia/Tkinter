@@ -190,3 +190,4 @@ $ git clone  https://github.com/johnzeng/ResumableGitClone.git
 如果只想拷贝最近一次的修改记录，使用depth参数
 $ git clone --depth 1 https://github.com/johnzeng/ResumableGitClone.git
 上面这句话含义为只拷贝最新的一次修改记录
+
